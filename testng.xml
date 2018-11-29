@@ -1,3 +1,4 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite name="test" parallel="tests" thread-count="10">
     <test name="test1">
         <classes>
