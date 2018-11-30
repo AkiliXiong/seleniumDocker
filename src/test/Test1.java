@@ -16,7 +16,7 @@ public class Test1 {
         Configuration.screenshots=false;
         webDriverContainer.clearBrowserCache();
         Configuration.browser="chrome";
-        Configuration.remote="http://192.168.3.4:5001/wd/hub";
+        Configuration.remote="http://10.1.183.51:5001/wd/hub";
         String baseUrl = "http://www.baidu.com";
         com.codeborne.selenide.Selenide.open(baseUrl);
         $(byText("百度")).should(Condition.visible);
